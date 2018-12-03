@@ -27,8 +27,4 @@ function xmldb_local_skeleton_am_analitics_install() {
     $indicator = \core_analytics\manager::get_indicator('\local_skeleton_am_analitics\analytics\indicator\set_setting');
     $indicators = array($indicator->get_id() => $indicator);
 
-    if (!in_array('\local_skeleton_am_analitics\analytics\target\binary_example', $usedtargets)) {
-        $target = \core_analytics\manager::get_target('\local_skeleton_am_analitics\analytics\target\binary_example');
-        $model = \core_analytics\model::create($target, $indicators, '\core\analytics\time_splitting\single_range');
-    }
 }

@@ -26,5 +26,3 @@ defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'Plugin analitics skeleton';
 $string['setting'] = 'Test setting is set';
 $string['setting_help'] = 'Test setting is set HELP';
-$string['binary'] = 'Binary';
-$string['binary_help'] = 'Binary HELP';
